@@ -1,0 +1,769 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700&family=Roboto:wght@300;500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #333;
+    background-image: url('imgs/Concretewall.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+#vcu-branding-bar--top {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#vcu-branding-bar--bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.egr {
+    color: #ffb300;
+
+}
+
+.bme {
+    color: #f05023;
+
+}
+
+.clse {
+    color: #e11e25;
+
+}
+
+.cs {
+    color: #4db848;
+
+}
+
+.ece {
+    color: #4bc1b3;
+
+}
+
+.mne {
+    color: #154ea2;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+strong {
+    font-weight: 500;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.small {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.font-30 {
+    font-size: 30px !important;
+}
+
+.gothic {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    align-items: center;
+}
+
+a.read-more {
+    font-size: 18px;
+    color: #333;
+    border-bottom: 0px !important;
+    font-style: italic;
+
+    &::before {
+        content: '>>';
+        margin: 0px 5px 0px 20px;
+    }
+}
+
+h1 {
+    font-size: 3em;
+
+    &.egr {
+        background: #ffb300;
+        color: #333;
+        padding: 10px;
+    }
+
+    &.bme {
+        background: #f05023;
+        padding: 10px;
+        color: #fff;
+    }
+
+    &.clse {
+        background: #e11e25;
+        padding: 10px;
+        color: #fff;
+    }
+
+    &.cs {
+        background: #4db848;
+        padding: 10px;
+        color: #fff;
+    }
+
+    &.ece {
+        background: #4bc1b3;
+        padding: 10px;
+        color: #fff;
+    }
+
+    &.mne {
+        background: #154ea2;
+        padding: 10px;
+        color: #fff;
+    }
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#header {
+    position: fixed;
+    top: 63px;
+    width: 100%;
+    z-index: 9999;
+}
+
+.navbar {
+    background: #333;
+    padding: 0px;
+}
+
+.navbar-brand {
+    max-width: 300px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.navbar button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    border: none;
+    line-height: 1.5;
+    background: #fff;
+    transition: 100ms ease;
+
+    p {
+        color: #333;
+    }
+
+    &:hover {
+        background: #ffb300;
+    }
+}
+
+.navbar p {
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-nav a {
+    color: #fff !important;
+    font-weight: 300;
+    margin: 0px;
+    text-transform: capitalize;
+    padding: 15px 10px !important;
+    font-size: 20px;
+    display: block;
+
+    &:hover {
+        background: #000;
+    }
+}
+
+#section1 {
+    background-color: #000;
+
+    .fp-controlArrow {
+        position: absolute;
+        z-index: 4;
+        top: 45%;
+        cursor: pointer;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        margin-top: -38px;
+        -webkit-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        right: 15px;
+        border-width: 38.5px 0 38.5px 34px;
+        border-color: transparent transparent transparent #fff;
+    }
+}
+
+#section2 {
+
+    .dean-photo {
+        max-width: 400px;
+        margin: 0px 0px 30px 30px;
+        float: right;
+    }
+
+    .dean-sign img {
+        max-width: 450px;
+        margin: 20px 0px 0px;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+        color: #333;
+    }
+
+}
+
+#section4 {
+    background: url('imgs/Artboard%201@2x-80.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+
+    h1,
+    h2,
+    p {
+        color: #fff;
+    }
+
+    h2 {
+        line-height: 1.5;
+    }
+
+    .fp-controlArrow.fp-prev {
+        border-color: transparent #fff transparent transparent;
+    }
+
+    .fp-controlArrow.fp-next {
+        border-color: transparent transparent transparent #fff;
+    }
+
+
+    a {
+        color: #fff;
+    }
+
+}
+
+#section6 {
+
+    #slide1 {
+        background: url('imgs/hightechArtboard%208.png');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+
+        p {
+            margin: 300px 175px 0px;
+        }
+    }
+
+    #slide2 {
+        background: url('imgs/hightechArtboard%208%20copy.png');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+    }
+
+
+    h1,
+    h2 {
+        color: #4bc1b3;
+    }
+
+    p {
+        color: #fff;
+    }
+
+    a {
+        color: #4bc1b3;
+        border-color: #fff;
+
+        &:hover {
+            color: #ffb300;
+        }
+    }
+
+    .wrapper {
+        padding: 20px;
+    }
+
+    .fp-controlArrow.fp-prev {
+        border-color: transparent #fff transparent transparent;
+    }
+
+    .fp-controlArrow.fp-next {
+        border-color: transparent transparent transparent #fff;
+    }
+}
+
+#section7 {
+    background: url('imgs/students.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left top;
+
+    h1,
+    h2,
+    p {
+        color: #fff;
+    }
+
+    .wrapper {
+        margin-left: 40%;
+        margin-right: 10%;
+    }
+
+    a {
+        color: #fff;
+
+        &:hover {
+            color: #333;
+        }
+    }
+
+}
+
+#section8 {
+    h1 {
+        padding-top: 15px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-weight: 400;
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 50px;
+    }
+}
+
+#section9 {
+    background: url('imgs/outreachArtboard%201.png');
+    background-attachment: fixed;
+    background-position: bottom right;
+    background-size: cover;
+
+    h1 {
+        color: #333;
+    }
+
+    h2,
+    p {
+        color: #fff;
+    }
+
+    .wrapper {
+        margin-right: 45%;
+        margin-left: 5%;
+    }
+
+    a {
+        color: #fff;
+
+        &:hover {
+            color: #333;
+        }
+    }
+
+}
+
+#section10 {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 10px;
+        align-items: center;
+
+        &.reverse {
+            grid-template-columns: 2fr 1fr;
+            grid-gap: 10px;
+        }
+
+        p {
+            font-size: 30px;
+        }
+    }
+}
+
+#section11 {
+
+    #slide1 {
+        background: url('imgs/WrightMemorial.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: left top;
+        background-repeat: no-repeat;
+
+        .wrapper {
+            margin-left: 50%;
+            margin-right: 10%;
+
+            p {
+                color: #fff;
+                font-size: 25px;
+            }
+        }
+    }
+
+    #slide2 {
+        background: url('imgs/GivingMyles.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: left top;
+        background-repeat: no-repeat;
+
+        .wrapper {
+            margin-right: 45%;
+            margin-left: 10%;
+
+            h1 {
+                max-width: 750px;
+            }
+
+            h2 {
+                color: #fff;
+            }
+
+            p {
+                color: #fff;
+                font-size: 25px;
+            }
+        }
+
+        .myles-info {
+            font-size: 14px !important;
+            background: #ffb300;
+            color: #000 !important;
+            padding: 10px;
+            position: absolute;
+            right: 2%;
+            bottom: 5%;
+        }
+    }
+
+    .fp-controlArrow.fp-prev {
+        border-color: transparent #fff transparent transparent;
+    }
+
+    .fp-controlArrow.fp-next {
+        border-color: transparent transparent transparent #fff;
+    }
+
+    a.button-gold {
+        background: #ffb300;
+        padding: 15px 30px;
+        border-radius: 30px;
+        font-size: 22px;
+        border: 0px;
+
+        &:hover {
+            text-decoration: none;
+            color: #333;
+            background: #fff !important;
+            border: 0px;
+        }
+    }
+}
+
+.section {
+    text-align: left;
+}
+
+.section .wrapper,
+.slide .wrapper {
+    text-align: left;
+    height: auto;
+    max-width: 1200px !important;
+    margin: 200px auto 50px;
+}
+
+.section a {
+    color: #000;
+    font-weight: 500;
+    border-bottom: 2px solid #ffb300;
+
+    &:hover {
+        text-decoration: none;
+        color: darkred;
+        border: none;
+    }
+}
+
+blockquote {
+    color: #fff;
+    font-size: 25px;
+    padding: 30px;
+    margin: 30px;
+    font-weight: 500;
+    max-width: 500px;
+    background: rgba(0, 0, 0, 0.3);
+
+    cite {
+        font-size: 15px;
+        font-weight: 300;
+        text-align: right;
+        display: block;
+        margin-top: 10px;
+    }
+}
+
+.fullpage-wrapper {
+    width: 100% !important;
+    transform: none !important;
+}
+
+.fp-section {
+    width: 100% !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 0;
+    transition: all 300ms ease-in-out;
+}
+
+.fp-section.active {
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1400px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    a.read-more {
+        font-size: 16px;
+
+        &::before {
+            margin: 0px 5px 0px 10px;
+        }
+    }
+
+    .fp-controlArrow.fp-prev {
+        border-width: 18.5px 14px 18.5px 0;
+
+    }
+
+    .fp-controlArrow.fp-next {
+        border-width: 18.5px 0 18.5px 14px;
+
+    }
+
+    .section .wrapper,
+    .slide .wrapper {
+        margin: 200px 55px 300px;
+    }
+
+    .font-30 {
+        font-size: 16px !important;
+    }
+
+    .grid-2 {
+        grid-template-columns: auto;
+    }
+
+    .capstone-image {
+        float: none;
+        max-width: 100%;
+        margin: 20px 0px;
+    }
+
+    blockquote {
+        font-size: 20px;
+        margin: 0px;
+        font-weight: 500;
+        max-width: 100%;
+
+        cite {
+            font-size: 12px;
+        }
+    }
+
+    #section1 {
+        .fp-controlArrow {
+
+            border-width: 18.5px 0 18.5px 14px;
+        }
+    }
+
+    #section2 {
+
+        .wrapper {
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+
+        .dean-photo {
+            float: none;
+            max-width: 300px;
+            margin: 0px auto 20px;
+            padding: 0px;
+        }
+
+    }
+
+    #section4 {
+        a {
+            color: #fff;
+        }
+    }
+
+    #section6 {
+
+        #slide1 {
+            background: #000;
+
+            p {
+                margin: 0px;
+            }
+        }
+
+        #slide2 {
+            background: #000;
+        }
+    }
+
+
+    #section7 {
+        background: rgba(240, 80, 35, 1);
+
+        .wrapper {
+            margin: 200px 20px 300px;
+            padding: 20px;
+        }
+    }
+
+    #section8 {
+        .grid {
+            grid-template-columns: auto;
+
+            img {
+                max-width: 100px;
+            }
+        }
+        h2 {
+            font-size: 22px;
+        }
+        h3 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
+
+    #section9 {
+        background: #0a7f39;
+
+        .wrapper {
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+    }
+
+    #section10 {
+        .grid {
+            grid-template-columns: auto;
+
+            &.reverse {
+                grid-template-columns: auto;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+
+    #section11 {
+        #slide1 {
+            background: #000;
+
+            .wrapper {
+                margin-right: 55px;
+                margin-left: 55px;
+
+                p {
+                    font-size: 18px;
+                }
+            }
+        }
+
+        #slide2 {
+            background: #000;
+
+            .wrapper {
+                margin-right: 55px;
+                margin-left: 55px;
+
+                p {
+                    font-size: 18px;
+                }
+            }
+
+            .myles-info {
+                display: none;
+            }
+        }
+    }
+}
